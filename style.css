@@ -45,7 +45,7 @@ ul {
 
 .hero {
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 .subtext {
@@ -69,7 +69,26 @@ button {
     color: #F9FAF8;
     border: 0;
     border-radius: 5px;
-    padding: 4px;
+    padding: 6px;
     width: 90px;
     margin-top: 10px;
+}
+
+.middle-one {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.middle-hero {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.information {
+    display: flex;
 }
