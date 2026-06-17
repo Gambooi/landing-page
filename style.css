@@ -64,7 +64,7 @@ ul {
     margin-right: 10%;
 }
 
-button {
+.sign-up-button button {
     background-color: #3882F6;
     color: #F9FAF8;
     border: 0;
@@ -91,4 +91,22 @@ button {
 
 .information {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.middle-button button {
+    border: 5px solid #3882F6;
+    border-radius: 5px;
+    background-color: white;
+    padding: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.text {
+    width: 170px;
+    text-align: center;
 }
