@@ -13,7 +13,6 @@ body {
     color: #F9FAF8;
     padding-top: 10px;
     padding-bottom: 50px;
-    
 }
 
 ul {
@@ -41,10 +40,12 @@ ul {
     color: #F9FAF8;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 20px;
 }
 
 .hero {
     font-size: 48px;
+    font-weight: bold;
 }
 
 .subtext {
@@ -55,8 +56,20 @@ ul {
     display: flex;
     flex-direction: column;
     margin-left: 10%;
+    width: 33%;
+    gap: 10px;
 }
 
 .top-right {
     margin-right: 10%;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 0;
+    border-radius: 5px;
+    padding: 4px;
+    width: 90px;
+    margin-top: 10px;
 }
