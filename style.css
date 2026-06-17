@@ -6,8 +6,11 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #1F2937;
     color: #F9FAF8;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
 }
 
 ul {
@@ -16,4 +19,15 @@ ul {
     padding: 0;
     display: flex;
     gap: 18px;
+}
+
+.left {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: 10%;
+    font-weight: bold;
+}
+
+.right {
+    margin-right: 10%;
 }
